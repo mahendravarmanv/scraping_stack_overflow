@@ -1,42 +1,168 @@
-A: The Definitive C++ Book Guide and List
-Q: Difference between static and shared libraries?
-A: Convert two lists into a dictionary
-Q: Why doesn't GCC optimize a*a*a*a*a*a to (a*a*a)*(a*a*a)?
-Q: When to use dynamic vs. static libraries
-Q: Calling C/C++ from Python?
-Q: Why can templates only be implemented in the header file?
-Q: C++11 introduced a standardized memory model. What does it mean? And how is it going to affe�
-A: Loop through an array in JavaScript
-Q: Using C Libraries for C++ Programs
-A: Why is �using namespace std;� considered bad practice?
-Q: Simple example of threading in C++
-A: How to install pip on Windows?
-A: Are static class variables possible in Python?
 Q: Access restriction on class due to restriction on required library rt.jar?
-Q: Is the Scala 2.8 collections library a case of �the longest suicide note in history�? [closed]
+should just compile as long as the runtime jars are available (they are). Access restriction: The type QName is not accessible due to restriction on required library C:\Program Files\Java\jdk1.5.0_16\jre …Solution is : + 	
+Votes are 815
+
+
+
+Q: Is the Scala 2.8 collections library a case of “the longest suicide note in history”? [closed]
+I have just started to look at the Scala collections library re-implementation which is coming in the imminent 2.8 release. Those familiar with the library from 2.7 will notice that the library, from … a usage perspective, has changed little. For example... > List("Paris", "London").map(_.length) res0: List[Int] List(5, 6) ...would work in either versions. The library is eminently useable: in …Solution is : + 	
+Votes are 867
+
+
+
 Q: C library tutorial [closed]
+find it hard to understand C's libraries. Does anyone know any tutorials about C libraries with code examples? … I'm trying to learn how to program in C. As C is similar to C++ I don't have any problems learning the basic commands (like for, while, do, variable declaring, preprocessor directives, etc). But I …Solution is : + 	
+Votes are 1
+
+
+
 Q: Is there a repository of C libraries? [duplicate]
+Possible Duplicate: Why there is not a comprehensive c archive network? Like Python has a Cheeseshop and Perl has CPAN? Google results have a lot of C++ results and I am looking for purely C libraries. PS: Looking for *nix libraries …Solution is : + 	
+Votes are 1
+
+
+
 Q: What modern C++ libraries should be in my toolbox? [closed]
+I've been out of the C++ game for about 10 years and I want to get back in and start on a commercial app. What libraries are in use these days? User interface (e.g, wxWidgets, Qt) Database General … purpose (e.g. Boost, Loki, STL) Threading Testing Network/sockets I looking to be cross-platform compatible (as much as possible out-of-the-box). What libraries to do you rely on? What features do they provide that make them "indispensable"? See my answer below for a summary. …Solution is : + 	
+Votes are 182
+
+
+
 Q: Can we use the POSIX C libraries in c++?
+I am new in the field of Linux system programming.I currently program in C and want to switch to c++. Can we use all the functions defined in POSIX C libraries in c++ without any change ? …Solution is : + 	
+Votes are 4
+
+
+
 Q: Linking static libraries to other static libraries
+I have a small piece of code that depends on many static libraries (a_1-a_n). I'd like to package up that code in a static library and make it available to other people. My static library, lets … , a statically linked executable is 7 MB). Is there a nice way to include only what is actually needed? This looks closely related to How to combine several C/C++ libraries into one?. …Solution is : + 	
+Votes are 129
+
+
+
 Q: How do I use arrays in C++?
+++11), so the need for arrays does not arise quite as often as it does in C. However, when you read legacy code or interact with a library written in C, you should have a firm grasp on how arrays work … C++ inherited arrays from C where they are used virtually everywhere. C++ provides abstractions that are easier to use and less error-prone (std::vector<T> since C++98 and std::array<T, n> since C …Solution is : + 	
+Votes are 473
+
+
+
 A: Sleep for milliseconds
-Q: What's the difference between �STL� and �C++ Standard Library�?
+In C++11, you can do this with standard library facilities: #include <chrono> #include <thread> std::this_thread::sleep_for(std::chrono::milliseconds(x)); Clear and readable, no more need to guess at what units the sleep() function takes. …Solution is : + 	
+Votes are 1187
+
+
+
+Q: What's the difference between “STL” and “C++ Standard Library”?
+Someone brought this article to my attention that claims (I'm paraphrasing) the STL term is misused to refer to the entire C++ Standard Library instead of the parts that were taken from SGI STL … . (...) it refers to the "STL", despite the fact that very few people still use the STL (which was designed at SGI). Parts of the C++ Standard Library were based on parts of the STL, and it is …Solution is : + 	
+Votes are 434
+
+
+
 Q: Mixing C and C++ libraries
+-library-header.h> } The strange thing now is that get "undefined reference" errors when linking, but these change depending on the order I list the libraries: If I list the C library first, all the … I've got a strange problem building an executable coded in C++ that uses a C++ library which itself relies on a C library. I compiled the C modules making up the C library using gcc and all other …Solution is : + 	
+Votes are 4
+
+
+
+A: What is a smart pointer and when should I use one?
+UPDATE This answer is rather old, and so describes what was 'good' at the time, which was smart pointers provided by the Boost library. Since C++11, the standard library has provided sufficient … had the "special" dangerous ability to be copied — which also unexpectedly transfers ownership. It was deprecated in C++11 and removed in C++17, so you shouldn't use it. std::auto_ptr<MyObject> p1 (new …Solution is : + 	
+Votes are 1852
+
+
+
 Q: C++ wrapper for C library
+Recently I found a C library that I want to use in my C++ project. This code is configured with global variables and writes it's output to memory pointed by static pointers. When I execute my project … : The problem here is that the wrapper-class should contain all global/static variables the C library has. Since the functions in the C library use those variables I will have to create very big …Solution is : + 	
+Votes are 4
+
+
+
 A: How do I iterate over the words of a string?
-Q: Chain of C libraries into C++
+For what it's worth, here's another way to extract tokens from an input string, relying only on standard library facilities. It's an example of the power and elegance behind the design of the STL …Solution is : + 	
+Votes are 1341
+
+
+
 Q: Failure adding C++ libraries
+, Both would be: C:\GitRoot\taglib Tick: Advanced Select: Configure Select: Generator Tick: Use default native compilers Select: Finish Wait until done. If using ZLib, Scroll down. (to the bottom of the … list of options ... should go over them all) Edit: ZLIB_INCLUDE_DIR Edit: ZLIB_LIBRARY Select: Generate Build the project: MinGW: C:\GitRoot\taglib> gmake Install the project: MinGW …Solution is : + 	
+Votes are 1
+
+
+
 Q: C library linked to Ox
+this article is "a library of routines for state space modelling and inference written in C and linked to Ox". Does this mean it can be directly implemented in C or is it a better approach to write the … , particularly as I want to test out some of my models using the Interactive Brokers API, for which it's more practical to use C# / C++. More specifically it's using examples from SsfPack which according to …Solution is : + 	
+Votes are 0
+
+
+
 Q: Is it possible to include statically linked libraries in other libraries in C/C++?
-Q: Exception handling library in pure C
-Q: error installing DBD::MySQL on osx 10.11 - Can't link/include C library '', aborting
+it possible to include these libraries in the one library shared by the subproject, so I don't have to reference them explicitly when building the different executables? Or is there something wrong with my approach in general? … In my project I have some shared code in a statically linked library that is used by several subprojects, each of which building its own executable. I use ar to create the library from the .o files …Solution is : + 	
+Votes are 2
+
+
+
 Q: Qt5 can't seem to find Objective-C libraries: unknown type name 'NSAutoreleasePool', etc
+64bit) or Clang (x86 64bit), I get lots of errors that seem to me to indicate that the Objective-C parts of my application can't find the libraries they need. For example: /Users/david/dev/svn … port my application to Qt 5.2.1. My code is C++ with some Objective-C. I built Qt5.2.1 on my same Macbook pro with this configuration: ./configure -prefix $PWD/qtbase -debug-and-release -developer …Solution is : + 	
+Votes are 2
+
+
+
+Q: Exception handling library in pure C
+Is there some crossplatform c-library for exception handling (to implement try / catch in C)? I'm also looking for documentation how it's realized in c++ (how the interrupts are masking or something like this) …Solution is : + 	
+Votes are 4
+
+
+
+Q: error installing DBD::MySQL on osx 10.11 - Can't link/include C library '', aborting
+settings, see 'perl Makefile.PL --help' and 'perldoc DBD::mysql::INSTALL'. Checking if libs are available for compiling... Can't link/include C library '', aborting. Does anyone know how to resolve? I've … tried removing mysql-connector-c and installing mysql via homebrew instead. The complaint then is Can't link/include C library 'ssl', 'crypto', aborting. I do have openssl installed. perl: This is perl 5, version 24, subversion 1 (v5.24.1) built for darwin-thread-multi-2level thnx for the help …Solution is : + 	
+Votes are 5
+
+
+
 Q: Wrapping multiple C++ libraries in a single shared library with C api
+I have several C++ libraries that can be build as either static and shared and I want to make a single shared wrapper library that provides C interface to all their functions. What steps are … necessary to correctly do that with gcc/g++? For now, I first recompile the objects of C++ libraries with -fPIC and -fvisibility=hidden, then compile the wrapper library also with -fvisibility=hidden, but …Solution is : + 	
+Votes are 0
+
+
+
 Q: Couldn't execute ESQL.EXE to determine the ESQL/C libraries
+library. perl Makefile.pl The error which i am facing on console is " Determining which Informix libraries etc to use... MZÉ$@: not found £èE°êE°δèM°Ç┴êM°δδ¡╢ò≥√  ╢äΦ·  ïMïü╞╟à⌠√  ╕╟ñäG╟¿äGí╝⌐F╕╟î … /esql"; my $libs = `$Perl -pe 's/^\\s*exec/echo/' $esqlscript | sh -s -- -o pseudonym $esqlc_flags dbd::ix.o` || die "Couldn't execute $esqlscript to determine the ESQL/C libraries\n"; Note: I am using Informix client SDK 3.50." Any help would be appreciable.Thanks …Solution is : + 	
+Votes are 1
+
+
+
 Q: Linking libraries in c++
+I have a C++ file a.cpp with the library dependency in the path /home/name/lib and the name of the library abc.so. I do the compilation as follows: g++ a.cpp -L/home/name/lib -labc This compiles … the program with no errors. However while running the program, I get the ERROR: ./a.out: error while loading shared libraries: libabc.so.0: cannot open shared object file: No such file or directory …Solution is : + 	
+Votes are 0
+
+
+
 Q: C++ STL : Including all libraries?
+How to include all the libraries of stl in my c++ code rather than individually including them. For example - #include <queue> #include <containers> A simple way to include all of them. Please help ? …Solution is : + 	
+Votes are 2
+
+
+
 Q: CMake - combine multiple libraries into one
+Let's say I have executables A, B, C, and I have external libraries X, Y, Z SET(EXTERNAL_LIB X Y Z) TARGET_LINK_LIBRARIES(A, ${EXTERNAL_LIB}) TARGET_LINK_LIBRARIES(B, ${EXTERNAL_LIB … }) TARGET_LINK_LIBRARIES(C, ${EXTERNAL_LIB}) However, if I visualize this (using cmake --graphviz option, I get a complex bipartite graph with edges from each of the executables A, B, and C to each of the libraries X, Y, and Z. I was wondering if there's a way to combine all the libraries into one. …Solution is : + 	
+Votes are 4
+
+
+
 Q: C++ Adobe source libraries impressions? [closed]
+I just stumbled upon Adobe source libraries, ASL. It is set of templates and functions similar to boost, under MIT license. Some of the utilities in the library I found quite useful and now I … consider using it. the library seems pretty straightforward, however. Have you used ASL yourself? if so, what were your impressions? do you recommend it? does it work well with a range of compilers and platforms e.g. IBM C++, ICC, g++? have you encountered quirks/unexpected things? thanks …Solution is : + 	
+Votes are 8
+
+
+
 A: How to add dividers and spaces between items in RecyclerView?
-Q: Cabal: missing dependency on foreign C library
+October 2016 Update The version 25.0.0 of Android Support Library introduced DividerItemDecoration class: DividerItemDecoration is a RecyclerView.ItemDecoration that can be used as a divider … context, int resId) { divider = ContextCompat.getDrawable(context, resId); } @Override public void onDraw(Canvas c, RecyclerView parent, RecyclerView.State state) { int left …Solution is : + 	
+Votes are 1175
+
+
+
+Q: How to Parse Command Line Arguments in C++? [duplicate]
+Possible Duplicate: What parameter parser libraries are there for C++? What is the best way of parsing command-line arguments in C++ if the program is specified to be run like this: prog … [-abc] [input [output]] Is there a library in STL to do this? Related: Parsing command line arguments in a unicode C++ application …Solution is : + 	
+Votes are 186
+
+
+
