@@ -1,0 +1,42 @@
+A: The Definitive C++ Book Guide and List
+Q: Difference between static and shared libraries?
+A: Convert two lists into a dictionary
+Q: Why doesn't GCC optimize a*a*a*a*a*a to (a*a*a)*(a*a*a)?
+Q: When to use dynamic vs. static libraries
+Q: Calling C/C++ from Python?
+Q: Why can templates only be implemented in the header file?
+Q: C++11 introduced a standardized memory model. What does it mean? And how is it going to affe…
+A: Loop through an array in JavaScript
+Q: Using C Libraries for C++ Programs
+A: Why is “using namespace std;” considered bad practice?
+Q: Simple example of threading in C++
+A: How to install pip on Windows?
+A: Are static class variables possible in Python?
+Q: Access restriction on class due to restriction on required library rt.jar?
+Q: Is the Scala 2.8 collections library a case of “the longest suicide note in history”? [closed]
+Q: C library tutorial [closed]
+Q: Is there a repository of C libraries? [duplicate]
+Q: What modern C++ libraries should be in my toolbox? [closed]
+Q: Can we use the POSIX C libraries in c++?
+Q: Linking static libraries to other static libraries
+Q: How do I use arrays in C++?
+A: Sleep for milliseconds
+Q: What's the difference between “STL” and “C++ Standard Library”?
+Q: Mixing C and C++ libraries
+Q: C++ wrapper for C library
+A: How do I iterate over the words of a string?
+Q: Chain of C libraries into C++
+Q: Failure adding C++ libraries
+Q: C library linked to Ox
+Q: Is it possible to include statically linked libraries in other libraries in C/C++?
+Q: Exception handling library in pure C
+Q: error installing DBD::MySQL on osx 10.11 - Can't link/include C library '', aborting
+Q: Qt5 can't seem to find Objective-C libraries: unknown type name 'NSAutoreleasePool', etc
+Q: Wrapping multiple C++ libraries in a single shared library with C api
+Q: Couldn't execute ESQL.EXE to determine the ESQL/C libraries
+Q: Linking libraries in c++
+Q: C++ STL : Including all libraries?
+Q: CMake - combine multiple libraries into one
+Q: C++ Adobe source libraries impressions? [closed]
+A: How to add dividers and spaces between items in RecyclerView?
+Q: Cabal: missing dependency on foreign C library
